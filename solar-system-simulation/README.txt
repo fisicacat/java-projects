@@ -1,4 +1,4 @@
-This programme simulates an N-body system evolving under a specified law of gravity.
+This Java programme simulates an N-body system evolving under a specified law of gravity. The programme uses Verlet Integration algorithm to update the positions and velocities of N bodies over time.
 
 The main programme takes four arguments. To run this simulation in terminal, please type:
      "java NbodyVerlet traj.xyz energy.xyz settings.input entries.input"
@@ -19,7 +19,7 @@ Terminal returns Name of planet \t Number of orbits it completed \t Period of on
 
 **settings.input** file contains parameters of the time evolution in the order: number of timesteps, size of time step, force constant.
 
-**entries.input** file contains initial values of N bodies in the order: 
+**entries.input** file contains initial values of N bodies in the following order: 
 Number of bodies \n 
 label, mass \n
 x-position, y-position, z-position \n
