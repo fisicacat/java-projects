@@ -7,7 +7,7 @@ The main programme takes four arguments. To run this simulation from terminal, p
 java NbodyVerlet traj.xyz energy.xyz settings.input entries.input
 ```
 
-## OUTPUT
+### OUTPUT
 
 Terminal returns 
 ```
@@ -18,9 +18,9 @@ Name of planet \t Number of orbits it completed \t Period of one orbit \t Perihe
 
 **energy.xyz** is an output file containing the total energy of the whole N-body system after each time step.
 
-## INPUT
+### INPUT
 
-*settings.input* file contains parameters of the time evolution in the order: number of timesteps, size of time step, force constant.
+**settings.input** file contains parameters of the time evolution in the order: number of timesteps, size of time step, force constant.
 
 **entries.input** file contains initial values of N bodies in the order: 
 ```
