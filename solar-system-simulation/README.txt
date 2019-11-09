@@ -1,4 +1,4 @@
-This programme simulates an N-body system evolving under a specified law of gravity.
+This Java programme simulates an N-body system evolving under a specified law of gravity. The programme uses Verlet Integration algorithm to update the positions and velocities of N bodies over time. The output can then be passed to VMD visualisation programme to create an animation (http://www.ks.uiuc.edu/Research/vmd/).
 
 The main programme takes four arguments. To run this simulation in terminal, please type:
      "java NbodyVerlet traj.xyz energy.xyz settings.input entries.input"
@@ -9,7 +9,7 @@ The main programme takes four arguments. To run this simulation in terminal, ple
 
 Terminal returns Name of planet \t Number of orbits it completed \t Period of one orbit \t Perihelion \t Aphelion \t Period using Keplers 3rd law.
 
-**traj.xyz** is an output file containing the positions of N bodies after each time step, printed in a format that is visualisable by VMD (http://www.ks.uiuc.edu/Research/vmd/).
+**traj.xyz** is an output file containing the positions of N bodies after each time step, printed in a format that is visualisable by VMD.
 
 **energy.xyz** is an output file containing the total energy of the whole N-body system after each time step.
 
@@ -19,7 +19,7 @@ Terminal returns Name of planet \t Number of orbits it completed \t Period of on
 
 **settings.input** file contains parameters of the time evolution in the order: number of timesteps, size of time step, force constant.
 
-**entries.input** file contains initial values of N bodies in the order: 
+**entries.input** file contains initial values of N bodies in the following order: 
 Number of bodies \n 
 label, mass \n
 x-position, y-position, z-position \n
